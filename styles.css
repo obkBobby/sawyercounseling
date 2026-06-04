@@ -74,7 +74,7 @@ p { margin: 0; }
 .photo-placeholder img { width: 100%; height: 100%; object-fit: cover; }
 .photo-placeholder.square { min-height: 520px; border-radius: var(--radius-lg); }
 .hero-card-body { padding: 30px; }
-.hero-card-body h2 { font-size: 1.9rem; margin-bottom: 14px; white-space: nowrap; }
+.hero-card-body h2 { font-size: 1.9rem; margin-bottom: 14px; }
 .hero-card-body p:last-child { color: var(--muted); }
 
 .intro-band { background: var(--deep-teal); color: white; }
@@ -150,6 +150,7 @@ details p { color: var(--muted); padding: 0 24px 24px; }
   .container { width: min(100% - 28px, 1120px); }
   .section-pad { padding: 58px 0; }
   h1 { font-size: 1.95rem; line-height: 1.2; letter-spacing: -0.065em; }
+  .hero-card-body h2 { font-size: 1.72rem; line-height: 1.12; }
   .hero-lede { font-size: 1.04rem; }
   .btn { width: 100%; }
   .final-card, .mid-cta-card { padding: 42px 22px; }
