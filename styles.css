@@ -123,6 +123,7 @@ details { padding: 0; overflow: hidden; }
 summary { cursor: pointer; list-style: none; padding: 22px 24px; font-weight: 800; }
 summary::-webkit-details-marker { display: none; }
 details p { color: var(--muted); padding: 0 24px 24px; }
+details ul { padding: 0 24px 24px 44px; }
 .final-cta { background: linear-gradient(135deg, var(--cream), #fff8ef); }
 .final-card { text-align: center; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 64px 44px; box-shadow: var(--shadow); max-width: 900px; }
 .final-card p:not(.section-kicker):not(.small-note) { color: var(--muted); margin: 18px auto 0; max-width: 650px; font-size: 1.08rem; }
