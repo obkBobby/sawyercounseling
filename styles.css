@@ -82,7 +82,7 @@ p { margin: 0; }
 .intro-band p:not(.section-kicker) { color: rgba(255,255,255,.78); margin-top: 20px; font-size: 1.08rem; }
 
 .section-heading { max-width: 760px; margin-bottom: 38px; }
-.section-heading p:not(.section-kicker) { margin-top: 16px; color: var(--muted); font-size: 1.05rem; white-space: nowrap; }
+.section-heading p:not(.section-kicker) { margin-top: 16px; color: var(--muted); font-size: 1.05rem; max-width: 100%; overflow-wrap: anywhere; }
 .cards, .service-grid, .rate-grid { display: grid; gap: 22px; }
 .three-col { grid-template-columns: repeat(3, 1fr); }
 .card, .service-card, .rate-card, details, .pattern-list, .step { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-md); padding: 28px; box-shadow: 0 16px 36px rgba(22,32,34,.06); }
