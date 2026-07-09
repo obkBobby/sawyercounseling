@@ -1,22 +1,26 @@
-# Sawyer Counseling One Page Landing Page
+# Sawyer Counseling Static Website
 
-## Files
-- `index.html` contains the page structure and copy.
-- `styles.css` contains the visual design.
-- `script.js` contains the mobile menu and scroll reveal behavior.
+This folder is upload-ready for a static host such as GitHub Pages, Netlify, Vercel, or a simple web server. No WordPress or database is required.
 
-## Items to replace before publishing
-1. Replace `YOUR_SIMPLEPRACTICE_OR_CONTACT_FORM_LINK_HERE` in `index.html` with your scheduler or contact form URL.
-2. Replace `mailto:YOUR_EMAIL_HERE` or remove the secondary button if you do not want email shown.
-3. Replace the two `.photo-placeholder` blocks with your headshot image.
-4. Confirm insurance language. The current page says United Healthcare and Optum only.
-5. Confirm credential line and add license number if you want it displayed.
+## What changed
 
-## Suggested image replacement
-Use an image like:
+- Added crawlable static service pages for Florida telehealth SEO and conversion.
+- Added a static `/resources/` library as the blog workaround. Each resource is a normal HTML page that can rank, support service pages with internal links, and stay visually consistent with the site.
+- Added `robots.txt` and `sitemap.xml`.
+- Added canonical, Open Graph, Service, FAQ, Article, and ProfessionalService schema where appropriate.
+- Updated homepage navigation/footer to point to hub pages without turning the homepage into a giant blog directory.
 
-```html
-<img src="images/robert-sawyer.jpg" alt="Robert Sawyer, LMHC" />
-```
+## Upload instructions
 
-Place the image in an `/images` folder and update the HTML accordingly.
+Upload the contents of this folder to the repository root for `www.sawyercounseling.com`. Keep folder names and `index.html` files intact so clean URLs like `/couples-therapy-florida/` work.
+
+## No-WordPress resource workflow
+
+To add a new article, duplicate one folder inside `/resources/`, update its `index.html`, then add the new URL to `/resources/index.html` and `sitemap.xml`.
+
+## Important live checks after upload
+
+1. Visit `/robots.txt` and `/sitemap.xml` and confirm both load.
+2. Test the free consultation button.
+3. Submit `https://www.sawyercounseling.com/sitemap.xml` in Google Search Console.
+4. Confirm insurance/rates are still accurate before sending traffic.
